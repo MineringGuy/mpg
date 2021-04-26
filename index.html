@@ -12,6 +12,7 @@
         <script>
             "use strict";
             
+            
             // get miles driven from user
             const miles = parseInt(prompt("Please enter the miles driven"));
 
@@ -22,8 +23,8 @@
             const mpg = parseFloat(miles/gallons);
 
             // display results
-            const html = `<p><label>Miles: </label>${miles}</p>
-                <p><label>Gallons: </label>${gallons}</p>
+            const html = `<p><label>Miles Driven: </label>${miles}</p>
+                <p><label>Gallons Used: </label>${gallons}</p>
                 <p><label>MPG: </label>${mpg.toFixed(2)}</p>`;
             document.write(html);
         </script>    
