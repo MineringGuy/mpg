@@ -6,10 +6,17 @@ body {
     border: 3px solid blue;
     padding: 0 2em 1em;
 }
+
 h1 {
-    color: blue;
+    color: green;
 }
+
+p {
+  color:brown;
+}
+
 label {
     display: inline-block;
-    width: 5em;
+    width: 7em;
 }
+
